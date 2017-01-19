@@ -347,3 +347,12 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-border-dark-grey,.w3-hover-border-dark-grey:hover,.w3-border-dark-gray,.w3-hover-border-dark-gray:hover{border-color:#616161!important}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+
+
+@media only screen and (max-width: 400px) {
+ .change1 { font-size:40%; }
+ .change2 { font-size:35%; position:absolute;left:20px;top:35%;transform:translate(-15%,0%);-ms-transform:translate(-15%,0%)	}
+}
+
+.w3-display-topmiddle1{position:absolute;left:45%;top:10%;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.w3-display-topmiddle2{position:absolute;left:17.5%;top:25%;}
